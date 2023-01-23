@@ -90,7 +90,7 @@
 %% article.
 \begin{abstract}
 %   Abstracts should be about 150 words.
-Some Abstract
+Given that people spend a significant amount of time within built spaces, designing spaces considering the impact that it may have on occupants’ comfort and emotions is an important challenge for Human Building Interaction (HBI). In this position paper, we suggest that materiality of tangible and intangible artifacts in a hybrid learning space will play a key role in comfort of occupants. To that end, we describe our case study and how artifacts identified through the study can serve as the first step towards designing comfort-enabling materials in a smart hybrid environment. 
 \end{abstract}
 
 %%
@@ -144,59 +144,56 @@ Some Abstract
 %   \label{fig:teaser}
 % \end{teaserfigure}
 
-
+ 
 %%
 %% This command processes the author and affiliation and title
 %% information and builds the first part of the formatted document.
 \maketitle
 
 \section{Introduction}
-{\color{red}somehow state that space is a material that encompasses other touchable and non-touchable materials}
-{\color{red}need to introduce concept of hybrid learning buildings.}
+``When the machine becomes the building" - the evolution of information and communication technologies (ICT) and building energy management systems (BEMS) have resulted in buildings transforming from inanimate structures into digital, interactive objects \cite{nembrini2017human}. These ``smart built environments" that encompass intelligent, interactive artifacts have presented an opportunity for Human Computer Interaction (HCI) research to find solutions for humans to sustainably co-exist within such buildings. This becomes especially important when smart and functionally hybrid buildings replace traditional learning spaces where learning, working, and leisure are all expected to co-exist \footnote{https://lab42.uva.nl/}. We colloquially refer to these non-traditional spaces as \textcolor{red}{hybrid learning spaces}. 
 
-% Alternate introduction
-Rapid digitization of buildings, particularly in the recent years have led to buildings transforming from inanimate structures into digital, interactive objects, even inciting the phrase ``when the machine becomes the building" \cite{nembrini2017human}. Such ``smart built environments" have presented an opportunity for HCI research to find solutions for humans to sustainably co-exist with buildings that encompass digital and interactive artifacts. This becomes especially important when smart buildings replace traditional learning spaces where learning, working, and leisure are all expected to co-habitate and flourish \footnote{https://lab42.uva.nl/}. We refer to these spaces as \textcolor{red}{hybrid learning spaces}. 
+A key aspect of human experience within built environments (and by extension smart environments) is derived from the physical and emotional comfort of the occupants \cite{alavi2017comfort}. This subjective comfort which is largely as a result of qualities of the built environment can play a role in impacting the occupants awareness and behaviour within that environment.  
 
-A significant aspect of human experience within built environments (and by extension smart environments) is derived from the physical and emotional comfort of the occupants \cite{alavi2017comfort}. Additionally, occupants emotions play a role in occupants perception of comfort and consequently their awareness and behaviour within a space. 
+In this position paper, we consider the materiality of a hybrid learning space that encapsulates both tangible artifacts (for eg., hardware, digital systems, constructed elements, furniture, etc.) and intangible artifacts (for eg., air quality, sound, touch and temperature). We posit that materiality needs to be examined through the lens of smart, hybrid learning spaces, and designed in a manner that positively influences occupants subjective comfort (affective and physical), and consequently their learning behaviours and attitudes.
 
-The consequence of smart hybrid learning spaces mean that that users get physically immersed within the interactive object, and bear the consequences of their interactions in a multi-sensory way. The impact of this on users emotions, comfort and therefore learning capabilities pose a challenge.  
+We first provide a background on human building interaction (HBI), an emerging field of research. The remainder of the paper describes our case study as a first step towards understanding the materiality of the artifacts in the hybrid learning space, and the role they will play towards providing emotional and physical comfort of occupants. 
 
 
-In this position paper, we consider the materiality of a hybrid learning space that encapsulates both tangible artifacts (for eg., hardware, construction elements, furniture, etc.) and non-tangiable artifacts (for eg smell, sound, touch and temperature). We posit that materiality of smart learning environments need to be carefully examined within the context of learning and designed in a manner that positively influences occupants subjective affective states, their comfort and consequently their learning behaviors and attitudes.
-                                    
-We first provide a background on human building interaction (HBI) a broach realm of research. The remainder of the paper describes our case study as a first step towards understanding learning in hybrid buildings and the role materiality will play towards improved human building interactions in the context of learning spaces. 
 
+% We posit that materiality of smart learning environments need to be carefully examined within the context of learning and designed in a manner that positively influences occupants subjective affective states, their
+% comfort and consequently their learning behaviors and attitudes.This context represents an opportunity for HCI research to play a role in studying the use of existing or newly proposed digital artifacts in relation to the built structure, and 
 
 
 \section{Background}
-\todo[inline,color=pink]{tbd}
-% HBI and Built Env
-Human building interaction (HBI) is a burgeoning area of research that focuses on capturing, understanding and enhancing human interactions and experiences both with and within ``smart built environments" \cite{alavi2016future}. The primary goal of HCI being a framework that can be used to understand, compare, and converge research efforts from the fields of Human Computer Interaction (HCI), design, and Architecture in envisioning and shaping the future of living spaces and all that they encompass \cite{nembrini2017human, alavi2018artifacts}. 
-
+% HBI
+Human building interaction (HBI) is a burgeoning area of research that focuses on capturing, understanding and enhancing human interactions and experiences both with and within ``smart built environments" \cite{alavi2016future}. The primary goal of HBI being a framework that can be used to understand, compare, and converge research efforts from the fields of HCI, design, and Architecture in envisioning and shaping the future of living spaces and all that they encompass \cite{nembrini2017human, alavi2018artifacts}. 
 
 % Comfort and Affect in Built Environment
-A significant aspect of human experience within built environments is derived from the physical and mental comfort of the occupants \cite{alavi2017comfort}. Occupants' comfort as a result of the built environment focuses on the physiological responses of occupants to environmental factors of thermal, visual, air quality and sound. Moreover, occupants emotions play a role in occupants perception of comfort and consequently their awareness and behaviour within a space. Given that people spend a significant amount of time within built spaces, designing spaces considering the impact that it may have on occupants’ comfort is an important challenge for HBI. 
+The concept of occupant comfort is central to occupants within built environments. Comfort is understood in the form of occupants' physiological and emotional (affective) responses to the built environment \cite{alavi2017comfort}. HBI especially examines the relationship between occupant comfort and four physical characteristics of the indoor environment - temperature, air, light and sound \cite{hawkes2007environmental, bluyssen2009indoor}. 
 
-The design of engaging interaction scenarios varies at least in four directions: a) "Ludic Design"–creating a medium for occupants to become curious, exploratory, and refective with their environments and become thoughtful on how to
-make changes [16], b) "Optimally Informative"–making aware IEQ
-measurements through the most comprehensible and accessible
-means [10, 20, 21, 26, 30, 48, 52], c) "Gamifed"–linking with social
-inclusiveness to strike a better connection between occupants’ comfort and ofce activities [28], d) "General awareness"–pursuing a
-long-term impact on users via educational or peripheral communication [22, 44].
+% Examples of existing work
+Much of the work in comfort studies focus on designing ``optimally informative" systems such as temperature calendars, air quality forecasts, noise level indicators, wearables that appropriately inform occupants of their environment and also allow them to engage with comfort parameters to certain degrees  \cite{costanza2016bit, milenkovic2013improving, kim2020designing}. Other works focus on a ``gamified" approach to engage users with their environment and activities in a socially inclusive manner \cite{mathur2015tiny, kwallek1997impact, zhong2022augmenting}. 
 
-Augmenting human sensors
-1. Here maybe talk about Sailins work and other wearables?
+% Our perspective
+Therefore, comfort studies to our knowledge tends to focus on designing for novel, interactive and digital systems for the environment. Instead, in this position paper we wish to reconsider occupants' affective and physical comfort through the lens of materiality of tangible and intangible artifacts in smart hybrid learning spaces. 
 
 
 \section{Designing for Affective Comfort in Hybrid Learning Spaces}
+in fostering interactions with non-digital elements of the building through digital means. . 
 
 \todo[inline, color=yellow]{Why does physical and mental comfort matter in built environments ie the hybrid learning space}
 
-\todo[inline, color=yellow]{Proposed case study}
-We wish to design learning spaces that can increase an occupant's subjective, affective comfort in hybrid learning spaces. As part of this objective our first step is to identify occupants experiences of comfort and emotions that arise from interactions within the built space - that is to identify the most influential factors (both tangialble and in-tangiable) that determine the overall sense of comfort in hybrid learning spaces. For this we are  conducting a case study to establish the discourse of the language of emotion and comfort in built learning environments. The case study comprises two phases: (a) broad emotion and comfort label collection, and (b) building walk. 
+% Why should we design for materiality
+A significant consequence of smart buildings is that occupants find themselves physically immersed within an interactive object, and therefore experience interactions in a multi-sensory manner. The impact of smart hybrid learning spaces on occupants emotions, comfort and therefore learning capabilities remains to be understood. The role of different artifacts in the smart space especially need to be considered to aid in improving affective comfort, and consequently learning-related behaviours.  
 
-\subsubsection{Phase I: Emotion and Comfort Label collection}
-The goal of this phase twofold: (a) obtain a large number of emotion labels from occupants and users of Lab42, and (b) recruit neurotypicals and neurodiverse who are familiar with Lab42 for the involved building walk study. QR codes will be placed around diverse working, and relaxation spaces in the building. Upon scanning the code, users will have to answer two main questions - (a) pertaining to emotions (b) pertaining to comfort. The emotion question would ask “How does this space make you feel?”. Next, users will be asked to reflect upon their comfort in the space “Are you comfortable in this space? Consider things such as temperature, light, noises etc.”. Both questions have an open-ended response format.
+A key question is how do we provide for physical and emotional comfort to learners within a smart space that is used by different people with varying usage goals. We believe that one means of addressing this is through material design of artifacts within hybrid spaces.  
+
+% Our proposed case study
+Our primary goal is to design learning spaces that can increase an occupant's subjective, affective comfort in hybrid learning spaces. As part of this objective, our first step is to identify occupants novel experiences of comfort and emotions that arise from interactions within the built space. For this, we will conduct a case study to identify the most influential factors (both tangible and intangible) that determine the overall sense of comfort and emotions in hybrid learning spaces. The case study comprises two phases: (a) emotion and comfort label collection, and (b) building walk. 
+
+\subsubsection{Part I: Emotion and Comfort Label collection}
+The goal of this phase is to obtain a large number of emotion and comfort information from occupants and users of Lab42. QR codes will be placed around different working, and relaxation spaces in the building. Upon scanning the code, users will have to answer two questions - (a) pertaining to emotions (b) pertaining to comfort. The emotion question would ask “How does this space make you feel?”. Next, users will be asked to reflect upon their comfort in the space “Are you comfortable in this space? Consider things such as temperature, light, noises etc.”. Both questions have an open-ended response format.
 
 \subsubsection{Phase II: Building Walk}
 The goal of the building walk is to have a more in-depth understanding of occupants assessment - mental, emotional and physical towards the spaces in LAB42. Phase one focuses on vocabulary while Phase two focuses on context surrounding the perception of emotions and comfort. The building walk comprises three main sessions - (a) a pre-walk briefing session, (b) walking session, and (c) post-walk session. Participants in small groups will be lead by researchers along a pre-planned route of the building (route planned by the participants). During the route, researchers engage participants in conversations about each space marked on the blueprints. Conversation  prompts include asking about impressions of the space (what is your first impression of this space? ), usage of space (How would you use this space? Why do you use this space? What kind of tasks would you perform in this space?), emotions in the space (How do you feel in this space emotionally? OR What emotions do you associate with this space? ), comfort (Is this space comfortable?	Is there sufficient light, warmth, ventilation?). Participants will also be encoraged to take polaroid photos of elements and artifacts that stabnd out to them. 
@@ -204,30 +201,38 @@ The goal of the building walk is to have a more in-depth understanding of occupa
 \subsubsection{Analysis}
 Emotion and comfort data collected from Phase I will be analysed using Desmet et al., lexcial analysis methodology to identify and extract comfort and emotion labels. The text from building walk will be also analysed using thematic analysis and used to support the emotion labels collected from the phase 1. Additional context to emotion and comfort labels will also be obtained from the detailed text descriptions.
 
-\todo[inline, color=yellow]{Expected outcomes from study}
-\subsubsection{Expected Contributions}
-Identification of artifacts that can impact comfort and emotions in a hybrid learning space. 
+% Expected outcomes that can inform B X M research - Material as a catalyst for human action
+\subsection{Expected Contributions}
+Through our case study (comfort and emotion data collection and building walk), we aim to (among other goals) identify specific artifacts both tangible and intangible, and the properties of these artifacts that impact building occupants' comfort. Additionally, we expect to gain an understanding of the lived-in bodily comfort and emotional experiences within smart learning spaces. We believe that our findings from the proposed case study will aid the body of work within HCI by first and foremost bringing together research communities of material and interaction design with comfort studies and smart buildings and consider materiality of built environments through the lens of comfort and affect. 
 
-\todo[inline,color=yellow]{How the outcomes/findings can inform BxM}
+We believe that spaces (and the artifacts they encompass) need to be tailored to hybrid learning spaces. Our findings may be used for the design and development of materials that can help create experiences that occupants might find lacking in smart hybrid learning spaces (for eg., sense of autonomy and control in an automated building), or enhance certain other experiences (for eg., feeling of groundedness and familiarity in a space used by many). 
 
-Signals from different sensory modalities, such as sounds [54], haptic [23], visual [23], smell [4], taste
-and texture stimuli [37] can be used to transform embodied experiences, which in turn may impact on motor, social and
-emotional functioning. We aim to address how materiality can transform (i.e., enhance, empower, amplify or augment) people’s perceptions of bodies given the built space and understand the relation between AI, materiality and people’s comfort in hybrid learning environments. 
 
-The interactive experience and perception of physical and emotional comfort can be obtained through materiality tailored to such spaces that elicit mental and physical experiences such as comfort, social engagement, privacy, motivation etc - sentiments moods all associated with hybrid learning spaces.  Through our building walk and emotion and comfort label collection, we aim to (among other goals) identify specific, artifacts both tangible and intangible and the specific properties of the artifacts that impact building occupants and therefore needs rethinking, redesign such that they may serve as catalysts for human comfort and mental health and well being. 
+% We find the growing need to foster collaboration between design,   findings may be used to initiate discussions between designers, architects and systems towards  designing materials that elicit mental and physical experiences of comfort, social engagement, privacy, motivation, groundedness, sentiments and moods typically associated with hybrid learning spaces.  
+
+
+
+% Examples of how materiality design can aid in comfort studies
+Materials that in-situ infer the environmental qualities and change attributes to provide comfort to participants. Materials that in-situ infer occupants affective states, and allow occupants to become aware of such states in a hybrid environment. 
+
+The nature of hybriod learning spaces involves mixed activities that often occur in the same space at a time. Understanding the nature of a space to judge its suitablility of use such as for learning or studying is an important concern. Materials need to be designed that convey such information to occupants or 
+
+participants emotions and provide subjective comfort to participants as occupants' emotions play a role in their perception of comfort and consequently their awareness and behaviour within a space.,
+
+
+
+% materials that enable occupants to visualise comfort parameters of an area, materials that enable privacy indication, of experience of privacy in a mixed learning environment., materials that enable and encourage learners to communicate and socialise. Materials that identify qualities of a space such as learnability of a mixed use table. 
+
+
 
 
 
 
 
 \section{Conclusion}
-\todo[inline,color=green!20!white]{Conclusion}
-Given the inevitable growth of smarter built environments, we postulate and propose solutions to address potential issues, such that these built environments may be designed keeping in mind the subjective emotional and physical comfort of occupants and learners towards more human-centric, buildings. 
+The increased complexity of built environments in recent years can be attributed to a growing expectation for buildings to adapt to changing socio-environmental parameters - human needs, climate, and economy. Given the inevitable growth of smart built environments, in this position paper we suggest that materials of a space can play a central role in understanding and shaping occupants comfort and emotions towards more human-centric smart buildings. We discuss why materiality (both tangible and intangible) needs to be examined and designed for occupants subjective affective and physical comfort in hybrid learning spaces. To that end, we also describe a case study that will help identify artifacts (tangible and intangible) and their specific properties that impact building occupants and therefore needs rethinking, redesign such that they may serve as catalysts for human comfort and mental health and well being. 
 
-\todototoc
-\listoftodos{list of todos}
-
-
+qualitative first step
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{affective-comfort}
